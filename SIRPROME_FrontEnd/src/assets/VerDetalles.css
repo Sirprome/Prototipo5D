@@ -1,0 +1,114 @@
+
+.Contenedor_Detalles{
+  display: flex;
+  justify-content: center;       
+  align-items: center;           
+  flex-wrap: wrap;              
+  align-content: flex-start;    
+  padding: 10px;
+  border-radius: 15px;        
+  height: 100vh;                 
+  width: 100%;     
+}
+
+.Titulo_Detalles{
+    padding: 10px;
+    height: 10%;
+    font-weight: bold;
+    text-align: center;
+}
+
+.Grupo_Detalles{
+    margin: 10px;
+    text-align: center;
+}
+.Contendor_Detalles2{
+    border-radius: 15px;
+    box-shadow: 0 5px 8px rgba(0, 0, 0, 0.2);
+    border: 2px solid gray
+
+}
+
+.Imagen_Detalles{
+    object-fit: cover;
+    display: inline-block;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    height: auto;
+    margin: 10px;
+    padding: 8px;
+    border-radius: 15px;
+
+}
+
+.Detalles_Rol_Miembros_Codigo{
+    flex-basis:100px;
+    flex-grow: 1;
+    padding: 4px;
+    margin: 18px;
+    border-radius: 15px;
+    border: 2px solid gray;
+    box-shadow: 0 5px 8px rgba(0, 0, 0, 0.2);
+}
+
+.Contenedor_Detalles_Imagen_Rol{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: flex-start;
+    padding: 5px;
+    margin: 5px;
+}
+.Contenedor_Acciones_Detalles{
+    text-align: center;
+    margin: 10px;
+    padding: 10px;
+}
+
+.Titulo_AccionesCriteerios_Detalles{
+    font-weight: bold;
+}
+
+.Boton_Criterios_Detalles{
+    margin: 5px;
+    border-radius: 8px;
+    color: white;
+    border: 2px solid #0097b2;
+    background-color:  #0097b2;
+}
+.Boton_VerCriterios_Detalles{
+    margin: 3px;
+    border-radius: 8px;
+    color: white;
+    border: 2px solid #6c757d;
+    background-color:  #6c757d;
+}
+
+.Boton_EliminarCriterio_Detalles{
+    width: 22%;
+    margin: 3px;
+    border-radius: 8px;
+    color: white;
+    border: 2px solid #dc3545;
+    background-color:  #dc3545;
+}
+
+.Miembros_del_Grupo_Detalles{
+    text-align: center;
+    padding: 4px;
+    font-weight: bold;
+}
+
+.Botones_Eliminar_Calificar_Detalles{
+    margin: 3px;
+    padding: 3px;
+}
+
+.Calificar_Criterio_Detalle{
+    margin: 3px;
+    border-radius: 8px;
+    color: white;
+    border: 2px solid #6c757d;
+    background-color:  #6c757d;
+}
